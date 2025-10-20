@@ -10,15 +10,22 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 50px;
+    margin: 0px;
+    backdrop-filter: brightness(0.3);
+    width: 100vw;
    }
 
 .header {
-  background-color: #3E3232; 
+  background-color: #d18e56; 
   padding: 20px 0;
   display: flex;
   justify-content: center; 
   align-items: center;
+  margin: 0px;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .branding {
@@ -36,19 +43,21 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  color: #fff;
+  color: #da0303;
 }
 
 .company-name {
   margin: 0;
   font-size: 24px;
   font-weight: bold;
+  color: #080808;
 }
 
 .tagline {
   margin: 5px 0 0;
   font-size: 14px;
-  color: #ccc;
+  color: #000000;
+  font-weight: bold;
 }
 
 
@@ -59,6 +68,8 @@
   text-decoration: none;    
   color: #f6f6f6;          
   display: inline-block;
+  padding-top: 7rem;
+  z-index: 9999;
 }
  
 .nav-menu li {
@@ -78,12 +89,14 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background:#3E3232;
+    background:#e27e2d;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding: 12px 0;
     z-index: 1000;
+    height: 3rem;
+
 }
 .bottom-nav a {
     color: #fbf9f9;
@@ -140,7 +153,7 @@
 }
 
 .copyright {
-  color: #000000;
+  color: #ffffff;
 }
 
     .container {
@@ -194,16 +207,21 @@
 
   /*product*/
 #product {
-    padding: 40px 20px;
+
     background-color: #503131;
     text-align: center;
+    width: 90vw;
+    padding: 0;
+    margin: auto;
+    
 }
 
 .product-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 30px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
 }
 
 
@@ -215,6 +233,7 @@
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
+    height: 23rem;
 }
 
 .product-card:hover {
