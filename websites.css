@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 0px;
-    backdrop-filter: brightness(0.3);
+    backdrop-filter: brightness(0.2);
     width: 100vw;
    }
 
@@ -467,3 +467,4 @@ p {
     margin: 0 auto;
   }
 }
+
