@@ -1,14 +1,15 @@
 
-
  body {
+    font-family: Arial, sans-serif;
+    background-image: url("bgq.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0px;
-    backdrop-filter: brightness(0.3);
-    width: 100vw;
-      background-image: url("bgq.jpg"); 
-   }
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 0;
+}
+   
 
 .header {
   background-color: #d18e56; 
@@ -809,6 +810,16 @@
             padding: 0;
          
         }
+        body {
+    font-family: Arial, sans-serif;
+    background-image: url("bgq.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding: 0;
+}
 
         .logo {
             width: 80px;
@@ -1090,4 +1101,3 @@
                 font-size: 14px;
             }
         }
-
