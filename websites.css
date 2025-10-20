@@ -1,13 +1,13 @@
 
 
  body {
-    background-image: url("bgq.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0px;
     backdrop-filter: brightness(0.3);
     width: 100vw;
+      background-image: url("bgq.jpg"); 
    }
 
 .header {
@@ -1090,3 +1090,4 @@
                 font-size: 14px;
             }
         }
+
